@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wawa</title>
+  <!-- internal files -->
+  <script src="./js/main.js"></script>
+  <script src="./js/index.js"></script>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/loader.css">
+</head>
+
+<body>
+  <!-- -------------------------->
+  <!-- Loader -->
+  <!-- -------------------------->
+  <div id="loading">
+    <div class="loader_wraper">
+      <div class="loader">
+        <div class="dot"></div>
+      </div>
+      <div class="loader">
+        <div class="dot"></div>
+      </div>
+      <div class="loader">
+        <div class="dot"></div>
+      </div>
+      <div class="loader">
+        <div class="dot"></div>
+      </div>
+      <div class="loader">
+        <div class="dot"></div>
+      </div>
+      <div class="loader">
+        <div class="dot"></div>
+      </div>
+    </div>
+  </div>
+  <!-- -------------------------->
+  <!-- navigation -->
+  <!-- -------------------------->
+  <nav class="nav">
+    <ul>
+      <li>Wawa</li>
+      <li>
+        <div class="dropdown">
+          <a class="dropbtn">Settings</a>
+          <div class="dropdown-content">
+            <a class="light_mode" id="darkmodebtn" onclick="setdarkmode()">Dark Mode</a>
+            <a class="image_mode" id="imagemodebtn" onclick="setTextMode()">Text Mode</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <!-- -------------------------->
+  <!-- main page -->
+  <!-- -------------------------->
+  <main>
+    <div class="nav_space"></div>
+    <section>
+      <div class="home">
+        <div class="img hideallimages">
+          <img src="./assets/hacked.png" alt="">
+        </div>
+        <div class="content">
+          <h1 class="heading">The Wawa Cyber Attack</h1>
+          <p class="details">Credit card data stolen from Wawa was found being sold on the dark web months after it was
+            breached.</p>
+          <div class="record">Records : <span>30 Millions</span></div>
+          <div class="date">Date : 2020</div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="blog" id="blog">
+        <div class="box">
+          <div class="content">
+            <div class="heading">Introduction</div>
+            <div class="paragraph">In December 2019, Wawa convenience store chain announced a data breach that
+              potentially exposed customers' personal and financial information. Malware was installed on the company's
+              payment processing servers, collecting payment card information such as card numbers, names, and
+              expiration dates. The breach affected all of Wawa's 850 locations, potentially compromising tens of
+              millions of customer records. While the investigation did not reveal any evidence of fraud, customers were
+              advised to monitor their financial accounts for suspicious activity. The Wawa cyber attack highlights the
+              need for companies to prioritize cybersecurity measures to protect their customers' sensitive information.
+            </div>
+          </div>
+          <div class="space"></div>
+          <div class="img">
+            <img src="./assets/1.png" alt="">
+          </div>
+        </div>
+        <div class="box">
+          <div class="content">
+            <div class="heading">Malware used in attack</div>
+            <div class="paragraph">The Wawa data breach in December 2019 was caused by malware that was installed on the
+              company's payment processing servers. The malware was designed to collect payment card information,
+              including card numbers, names, and expiration dates. The malware was able to capture this information as
+              it was being processed by Wawa's servers, potentially compromising tens of millions of customer records.
+              The specific type of malware used in the attack has not been publicly disclosed, but it is likely that it
+              was a form of point-of-sale malware, which is commonly used in attacks on retailers and other businesses
+              that process payment card transactions.</div>
+          </div>
+          <div class="space"></div>
+          <div class="img">
+            <img src="./assets/2.png" alt="">
+          </div>
+        </div>
+        <div class="box">
+          <div class="content">
+            <div class="heading">Impact on customers and employees</div>
+            <div class="paragraph">
+              <ul>
+                <li>Financial Loss for Customers</li>
+                <li>Identity Theft Risk for Customers</li>
+                <li>Trust Loss for Wawa</li>
+                <li>Customer Inconvenience</li>
+                <li>Reputational Harm to Wawa</li>
+                <li>Legal Consequences for Wawa</li>
+              </ul>
+            </div>
+          </div>
+          <div class="space"></div>
+          <div class="img">
+            <img src="./assets/3.png" alt="">
+          </div>
+        </div>
+        <div class="box">
+          <div class="content">
+            <div class="heading">Importance of strong cybersecurity measures</div>
+            <div class="paragraph">Strong cybersecurity measures are essential in today's digital landscape due to the
+              increasing number of cyber threats and attacks. These measures can protect against data breaches, cyber
+              attacks, and help organizations comply with industry regulations related to the protection of personal and
+              sensitive information. Strong cybersecurity can also help protect intellectual property from theft or
+              misuse and safeguard critical infrastructure. Without robust cybersecurity measures, businesses and
+              individuals can face significant financial, reputational, and legal consequences. Therefore, it is crucial
+              to invest in strong cybersecurity measures to protect against the evolving cyber threats and keep
+              sensitive data and assets secure.</div>
+          </div>
+          <div class="space"></div>
+          <div class="img">
+            <img src="./assets/4.png" alt="">
+          </div>
+        </div>
+        <div class="box">
+          <div class="content">
+            <div class="heading">Summary</div>
+            <div class="paragraph">The Wawa cyber attack resulted in the compromise of personal and financial
+              information of thousands of customers. The stolen information included payment card details, as well as
+              names, addresses, and phone numbers. This highlights the importance of robust cybersecurity measures to
+              protect sensitive customer data from evolving cyber threats. The potential impact of data breaches can be
+              significant, including financial loss, identity theft, damage to reputation, and legal consequences.
+              Companies need to prioritize the protection of sensitive information and invest in cybersecurity measures
+              to prevent cyber attacks and data breaches. The Wawa cyber attack serves as a reminder of the need for
+              constant vigilance and proactive measures to protect against cyber threats.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- -------------------------->
+  <!-- footer -->
+  <!-- -------------------------->
+  <footer class="footer">
+    <div class="copyright">
+      <div class="copy"><i class="far fa-copyright"></i> 2023, All right reserved by <span>Ahmed Rohail
+          Awan</span></div>
+    </div>
+  </footer>
+</body>
+
+</html>

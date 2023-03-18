@@ -1,0 +1,15 @@
+:root{
+    --aqua: #05e6ee !important;
+    --white: #ffffff !important;
+    --black:#111 !important;
+    --black-body: #050b17 !important;
+    --black-web: #0d1321 !important;
+    --black-web-border: #0d1321 !important;
+    --black-covers: #141724 !important;
+}
+.home .content{
+    padding-left: 0 !important;
+}
+.blog .box .content{
+    width: 100% !important; 
+}
